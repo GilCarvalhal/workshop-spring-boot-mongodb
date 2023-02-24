@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.repository;
+package com.workshopmongo.repository;
 
 import java.util.Date;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.nelioalves.workshopmongo.domain.Post;
+import com.workshopmongo.domain.Post;
 
 @Repository
 public interface PostRepository extends MongoRepository<Post, String> {

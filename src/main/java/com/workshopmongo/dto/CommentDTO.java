@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.dto;
+package com.workshopmongo.dto;
 
 import java.io.Serializable;
 import java.util.Date;

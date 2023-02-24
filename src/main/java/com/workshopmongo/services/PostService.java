@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.services;
+package com.workshopmongo.services;
 
 import java.util.Date;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nelioalves.workshopmongo.domain.Post;
-import com.nelioalves.workshopmongo.repository.PostRepository;
-import com.nelioalves.workshopmongo.services.exception.ObjectNotFoundException;
+import com.workshopmongo.domain.Post;
+import com.workshopmongo.repository.PostRepository;
+import com.workshopmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class PostService {
